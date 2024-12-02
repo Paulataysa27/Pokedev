@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/assets/imagens/background.png");
+    background-image: url("assets/imagens/background.png");
     background-size: cover;
     background-position: center;
 }
