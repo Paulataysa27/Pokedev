@@ -4,10 +4,11 @@
 }
 
 body {
-    background-image: url("/assets/imagens/background.png");
+    background-image: url("../background.png");
     background-size: cover;
     background-position: center;
 }
+
 
 .content {
     width: 100vw;
