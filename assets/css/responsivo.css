@@ -5,6 +5,7 @@
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+        background-color: rgba(130, 130, 130, 0.6);
     }
 
     .pokemons{
@@ -30,6 +31,7 @@
         justify-self: center;
         max-width: 1400px;
         margin: 5rem 1rem;
+        background-color: rgba(130, 130, 130, 0.6);
     }
     .pokemons{
         margin: 4rem;
