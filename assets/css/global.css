@@ -1,23 +1,27 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-html{
+html, body{
+    min-width: 100%;
     min-height: 100%;
 }
 
-body{
-    background: url("https://w.wallhaven.cc/full/ne/wallhaven-neoxo8.png") no-repeat center center/cover ;
+html{
+    background-image: url("../imagem/bg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
 }
-
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: rgba(130, 130, 130, 0.6);
-    
-    
+    background-color: rgba(158, 194, 205, 0.801);
 }
 
 @media screen and (min-width: 992px) {
@@ -38,7 +42,7 @@ body{
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: rgba(130, 130, 130, 0.6);
+    background-color: rgba(158, 194, 205, 0.801);
     
 }
 
