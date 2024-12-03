@@ -4,7 +4,7 @@
     .content{
         height: auto;
         justify-self: center;
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 5rem 1rem;
         background-color: rgba(158, 194, 205, 0.801);
         border-radius: .7rem;
@@ -12,6 +12,11 @@
     .pokemons{
         margin: 2.5rem;
         grid-template-columns: 1fr;
+    }
+
+    .fonte{
+        position: relative;
+        left: 25.5rem;
     }
 }
 
