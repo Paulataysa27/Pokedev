@@ -7,31 +7,11 @@ html{
     min-height: 100%;
 }
 
-.bg{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+body{
+    background: url("https://w.wallhaven.cc/full/ne/wallhaven-neoxo8.png") no-repeat center center/cover ;
 }
-
-.bg::before{
-    content: '';
-    background-image: url("https://w.wallhaven.cc/full/ne/wallhaven-neoxo8.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-
 
 .content {
-    position: relative;
-    top: -6%;
     width: 100vw;
     height: 100vh;
     padding: 1rem;
